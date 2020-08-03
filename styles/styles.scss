@@ -1,9 +1,13 @@
 $colot-primary: #DC2F02;
 $color-secundary: #2B018E;
 $color-tertiary :#F3F4F7;
+$color-text: #A9B0C6;
+$letter-main: 'Open Sans', sans-serif;
+$letter-titles:'Poppins', sans-serif;
 
 body{
     margin: 0;
+    font-family: $letter-main;
 }
 
 //Header Styles
@@ -16,6 +20,7 @@ body{
 .content__nav h1 {
     margin-left: 50px;
     font-size: 25px;
+    font-family: $letter-titles;
     color: $color-secundary;
 }
 .content__nav--links{
@@ -25,6 +30,9 @@ body{
     margin-right: 10px;
     text-decoration: none;
     color: $color-secundary;
+}
+.content__nav--links a:hover {
+    text-decoration: underline;
 }
 .content__nav--links .content__nav--home{
     color: $colot-primary;
@@ -36,5 +44,96 @@ body{
     width: 40px;
     margin-right: 10px;
 }
-
 //header Styles
+//Main Styles
+.content__main{
+    display: flex;
+    padding: 70px;
+    align-items: center;
+}
+.content__main--texts h2{
+    color: $color-secundary;
+    font-size: 70px;
+    margin-bottom: 0px;
+    font-family: $letter-titles;
+}
+.content__main--texts h2 span {
+    color: $colot-primary;
+}
+.content__main--texts p {
+    font-size: 12px;
+    color: $color-text;
+}
+.content__main--img img{
+    width: 600px;
+}
+.content__main--btn{
+    margin-top: 30px;
+}
+.content__main--btn a {
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
+    color: $color-tertiary;
+    font-size: 13px;
+}
+.content__main--btn .btn-one{
+    background-color: $colot-primary;
+}
+.content__main--btn .btn-two {
+    background-color: $color-secundary;
+}
+//Main Styles
+
+//Section Publicity
+.content__publicity{
+    text-align: center;
+    background-color: $color-tertiary;
+    padding: 60px;
+}
+.content__publicity--processing{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.content__publicity--processing img {
+    width: 30px;
+}
+.content__publicity--processing span{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.content__publicity--text h2{
+    color: $color-secundary;
+    font-family: $letter-titles;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.content__publicity--text h2 span {
+    color: $colot-primary;
+}
+.content__publicity--text p {
+    font-size: 13px;
+    color: $color-text;
+}
+.content__publicity--img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.content__publicity--img p {
+    color: $color-secundary;
+    font-family: $letter-titles;
+}
+//Section Publicity
+
+//Section Information
+
+.content__information{
+    padding: 80px;
+    display: flex;
+}
+
+//Section Information
