@@ -1,0 +1,40 @@
+$colot-primary: #DC2F02;
+$color-secundary: #2B018E;
+$color-tertiary :#F3F4F7;
+
+body{
+    margin: 0;
+}
+
+//Header Styles
+.content__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-tertiary;
+}
+.content__nav h1 {
+    margin-left: 50px;
+    font-size: 25px;
+    color: $color-secundary;
+}
+.content__nav--links{
+    margin-left: 200px;
+}
+.content__nav--links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: $color-secundary;
+}
+.content__nav--links .content__nav--home{
+    color: $colot-primary;
+}
+.content__nav--img{
+    margin-right: 80px;
+}
+.content__nav--img img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+//header Styles

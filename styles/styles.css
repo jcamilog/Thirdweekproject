@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.content__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F3F4F7;
+}
+
+.content__nav h1 {
+  margin-left: 50px;
+  font-size: 25px;
+  color: #2B018E;
+}
+
+.content__nav--links {
+  margin-left: 200px;
+}
+
+.content__nav--links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #2B018E;
+}
+
+.content__nav--links .content__nav--home {
+  color: #DC2F02;
+}
+
+.content__nav--img {
+  margin-right: 80px;
+}
+
+.content__nav--img img {
+  width: 40px;
+  margin-right: 10px;
+}
