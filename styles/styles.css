@@ -140,7 +140,63 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.content__ideology {
+  display: flex;
+  padding: 80px;
+}
+
+.content__ideology img {
+  width: 600px;
+}
+
+.content__ideology--texts h2 {
+  color: #2B018E;
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.content__ideology--texts h2 span {
+  color: #DC2F02;
+}
+
+.content__ideology--texts p {
+  font-size: 12px;
+  color: #A9B0C6;
+}
+
 .content__information {
   padding: 80px;
   display: flex;
+  background-color: #F3F4F7;
+}
+
+.content__information--info h3 {
+  color: #2B018E;
+  font-family: "Poppins", sans-serif;
+}
+
+.content__information p {
+  font-size: 13px;
+  color: #A9B0C6;
+}
+
+.content__information--info a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #A9B0C6;
+}
+
+.content__information--info a:hover {
+  text-decoration: underline;
+}
+
+.content__information span {
+  font-size: 13px;
+  color: #A9B0C6;
+}
+
+.content__information--info img {
+  width: 30px;
 }
