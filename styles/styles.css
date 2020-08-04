@@ -200,3 +200,30 @@ body {
 .content__information--info img {
   width: 30px;
 }
+
+.content__portfolio {
+  text-align: center;
+}
+
+.content__portfolio h3 {
+  padding: 80px;
+  padding-bottom: 0px;
+  color: #2B018E;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.content__portfolio h3 span {
+  color: #DC2F02;
+}
+
+.content__portfolio p {
+  font-size: 13px;
+  margin-top: -10px;
+  color: #A9B0C6;
+}
+
+.content__img--portfolio {
+  display: flex;
+  padding: 80px;
+}

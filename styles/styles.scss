@@ -186,3 +186,35 @@ body{
 }
 
 //Section Information
+
+//Section Portfolio
+
+.content__portfolio{
+    text-align: center;
+}
+.content__portfolio h3 {
+    padding: 80px;
+    padding-bottom: 0px;
+    color: $color-secundary;
+    font-family: $letter-titles;
+    font-size: 30px;
+}
+.content__portfolio h3 span {
+    color: $colot-primary;
+}
+.content__portfolio p {
+    font-size: 13px;
+    margin-top: -10px;
+    color: $color-text;
+}
+
+//Section Portfolio
+
+// Section Img portfolio
+
+.content__img--portfolio{
+    display: flex;
+    padding: 80px;
+}
+
+// Section Img portfolio
